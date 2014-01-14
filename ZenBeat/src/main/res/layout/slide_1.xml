@@ -1,0 +1,79 @@
+<!--
+  This file is part of Zen Beat.
+
+    Zen Beat is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Zen Beat is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Zen Beat.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    tools:context=".HowToSlider$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First listen to the tune"
+        android:textSize="28dp"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_next_item"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe Through"
+        android:id="@+id/textView"
+        android:phoneNumber="false"
+        android:password="false"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageView" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/section_label"
+        android:layout_above="@+id/imageView">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/slide_1_screenshot"
+            android:src="@drawable/screenshot_slide_1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/section_label"
+            android:layout_above="@+id/imageView" />
+
+        <ImageButton
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:id="@+id/playSoundButton"
+            android:src="@drawable/ic_action_volume_on"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/textView"
+            android:layout_gravity="center_horizontal|bottom" />
+    </FrameLayout>
+
+</RelativeLayout>

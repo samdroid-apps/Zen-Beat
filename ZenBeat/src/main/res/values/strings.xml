@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of Zen Beat.
+
+    Zen Beat is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Zen Beat is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Zen Beat.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources>
+
+    <string name="app_name">Zen Beat</string>
+    <string name="Info">Zen Beat is copyright Sam Parkinson 2012 to 2014.
+Zen Beat is distributed under the terms of the GNU General Public License version 3.
+For more info about the GPL please visit http://www.gnu.org/licenses/licenses.html
+
+We would like to thank these great resources that are used in this app:
+
+Android Support Library
+The Android Icon Set</string>
+    <string name="title_activity_how_to_slider">How To Play</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

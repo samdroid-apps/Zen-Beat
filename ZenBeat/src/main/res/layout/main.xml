@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of Zen Beat.
+
+    Zen Beat is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Zen Beat is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Zen Beat.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dip"
+                android:layout_margin="2dp">
+
+                <ImageView
+                    android:id="@+id/b5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="20"
+                    android:padding="0dip"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/b5" />
+
+                <ImageView
+                    android:id="@+id/b6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:padding="0dip"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/b6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dip"
+                android:layout_margin="2dp" >
+
+                <ImageView
+                    android:id="@+id/b1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:padding="0dip"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/b1" />
+
+                <ImageView
+                    android:id="@+id/b2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fadingEdge="none"
+                    android:padding="0dip"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/b2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dip"
+                android:layout_margin="2dp" >
+
+                <ImageView
+                    android:id="@+id/b3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fadingEdge="none"
+                    android:padding="0dip"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/b3" />
+
+                <ImageView
+                    android:id="@+id/b4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fadingEdge="none"
+                    android:padding="0dip"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/b4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dip"
+                android:layout_margin="2dp" >
+
+                <ImageView
+                    android:id="@+id/b7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="20"
+                    android:padding="0dip"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/b7" />
+
+                <ImageView
+                    android:id="@+id/b8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:padding="0dip"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/b8" />
+            </LinearLayout>
+
+        </LinearLayout>

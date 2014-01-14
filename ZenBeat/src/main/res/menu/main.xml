@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_replay"
+        android:title="Replay the Tune"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_volume_on" />
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
