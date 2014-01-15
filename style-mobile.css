@@ -1,0 +1,32 @@
+.info-div {
+  width: 100%;
+  clear: both;
+  float: none;
+}
+
+.img-hero {
+  width: 100%;
+  clear: both;
+  float: none;
+}
+
+@media screen and (max-width: 500px) {
+  #header br {
+    display: inline;
+  }
+  
+  .pages li {
+    width: 23%;
+  }
+  
+  a {
+    border-bottom: 0 solid black;
+    
+    color: inherit;
+    text-decoration: underline;
+  }
+  
+  .pages li a:hover, .pages .this-page {
+    border-bottom: 0 solid black;
+  }
+}
