@@ -47,6 +47,10 @@ h2 {
   height: 64px;
 }
 
+ul.pages {
+    vertical-align: bottom;
+}
+
 .pages li {
   list-style: none;
   float: right;
